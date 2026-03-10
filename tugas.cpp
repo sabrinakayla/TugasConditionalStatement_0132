@@ -24,3 +24,8 @@ string tentukanStatus(float bmi) {
         return "Obesitas";
     }
 }
+
+int main() {
+    float berat, tinggi, bmi;
+    masukanData(berat, tinggi);
+    bmi = hitungBMI(berat, tinggi);
