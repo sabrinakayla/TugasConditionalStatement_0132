@@ -29,3 +29,10 @@ int main() {
     float berat, tinggi, bmi;
     masukanData(berat, tinggi);
     bmi = hitungBMI(berat, tinggi);
+
+    cout << "\n--- Hasil ---" << endl;
+    cout << "BMI Anda : " << bmi << endl;
+    cout << "Status   : " << tentukanStatus(bmi) << endl;
+
+    return 0;
+}
